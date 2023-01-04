@@ -25,6 +25,7 @@ class SIPUAHelper extends EventManager {
   }
 
   UA? _ua;
+  UA? get ua => _ua;
   Settings _settings = Settings();
   UaSettings? _uaSettings;
   final Map<String?, Call> _calls = <String?, Call>{};
